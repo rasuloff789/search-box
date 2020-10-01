@@ -11,7 +11,10 @@
   
   <div class="container">
     <div class="search-container">
-      <input class="search-input" type="text"  name="search" placeholder="Search...">
+      <input class="search-input" 
+      pattern="^[a-z\d\.]{5,}$"
+      spellcheck="false"
+      type="text"  name="search" placeholder="Search..." >
       <button class="search-btn">
         <img class="search-icon" src="img/search-24px.svg" width="24" height="24" alt="search-icon" >
       </button>
